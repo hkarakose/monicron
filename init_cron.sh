@@ -17,3 +17,6 @@ crontab "$CRON_FILE"
 
 # Remove the temporary cron file
 rm "$CRON_FILE"
+
+# Prevent monicron.sh from deletions
+chmod 600 monicron.sh
