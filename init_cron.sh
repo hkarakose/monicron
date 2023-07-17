@@ -19,4 +19,4 @@ crontab "$CRON_FILE"
 rm "$CRON_FILE"
 
 # Prevent monicron.sh from deletions
-chmod 600 monicron.sh
+chmod 500 monicron.sh
